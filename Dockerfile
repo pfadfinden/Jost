@@ -24,4 +24,4 @@ ADD . /app
 RUN --mount=type=cache,target=/root/.cache/uv \
     uv sync --locked
 
-CMD ["/app/scripts/build.sh"]
+CMD ["/app/scripts/build-alternative-charset.sh"]

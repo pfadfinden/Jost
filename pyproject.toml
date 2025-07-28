@@ -6,6 +6,7 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "fontmake>=3.10.1",
+    "fonttools[lxml,ufo,unicode,woff]>=4.59.0",
     "gftools>=0.9.86",
     "statmake>=1.1.0",
 ]

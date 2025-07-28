@@ -713,6 +713,7 @@ version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
     { name = "fontmake" },
+    { name = "fonttools", extra = ["lxml", "unicode", "woff"] },
     { name = "gftools" },
     { name = "statmake" },
 ]
@@ -720,6 +721,7 @@ dependencies = [
 [package.metadata]
 requires-dist = [
     { name = "fontmake", specifier = ">=3.10.1" },
+    { name = "fonttools", extras = ["lxml", "ufo", "unicode", "woff"], specifier = ">=4.59.0" },
     { name = "gftools", specifier = ">=0.9.86" },
     { name = "statmake", specifier = ">=1.1.0" },
 ]
